@@ -10,7 +10,8 @@ export default class TokenForm extends React.Component {
   handleSubmit = event => {
     event.preventDefault();
     const { setToken } = this.props;
-    const token = this.tokenInput.value;
+    const token = process.env.REACT_APP_GIT_HUB_TOKEN;
+    console.log('\n', 'token', '\n', '\n', token )
     if (token) {
       setToken(token);
     }
@@ -21,7 +22,7 @@ export default class TokenForm extends React.Component {
       <form onSubmit={this.handleSubmit}>
         <Input
           name="token"
-          placeholder="Enter your GitHub token"
+          placeholder="Enter whatever, it's hardcoded"
           ref={input => {
             this.tokenInput = input;
           }}

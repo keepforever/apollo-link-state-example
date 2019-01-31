@@ -64,3 +64,5 @@ const client = new ApolloClient({
 });
 
 export default client;
+
+// 2832bd2f02aa58c7d2e71f9fc55fdba2520c2e7c
