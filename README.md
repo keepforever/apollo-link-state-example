@@ -1,3 +1,8 @@
+
+# Note
+### You need to create a github token to use this app.  Should be locally in the .env or create a new one if you cannot find it. 
+
+# Everthing below here is boiler README.md
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
